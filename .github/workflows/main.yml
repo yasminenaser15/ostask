@@ -15,5 +15,7 @@ jobs:
     steps:
       - name: 'printing folder contents'
         run: ls
+
+      - uses: actions/checkout@v3
  
 
