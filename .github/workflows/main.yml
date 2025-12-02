@@ -13,10 +13,7 @@ jobs:
 
 
     steps:
-      - name: 'testing github action'
-        run: pwd
-
-      - name: 'testing printing'
-        run: echo yasmine
-
+      - name: 'printing folder contents'
+        run: ls
+ 
 
